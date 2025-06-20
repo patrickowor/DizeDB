@@ -23,6 +23,6 @@
         "src",
         "protos",
         "LICENSE",
-        //"README.md",
+        "README.md",
     },
 }
