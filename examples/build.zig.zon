@@ -1,0 +1,20 @@
+.{
+    .name = .dizedb_examples,
+
+    .version = "0.0.0",
+
+    .fingerprint = 0x8b469fc8f8dee698,
+    .minimum_zig_version = "0.14.0",
+
+    .dependencies = .{
+        .dizeDB = .{
+            .path = ".."
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
