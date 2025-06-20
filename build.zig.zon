@@ -1,0 +1,28 @@
+.{
+    .name = .dizeDB,
+
+    .version = "0.0.1",
+
+    .fingerprint = 0xf0dc1a5d1ca41a37,
+    .minimum_zig_version = "0.14.0",
+
+    .dependencies = .{
+        .zig_uuidv4 = .{
+            .url = "git+https://github.com/patrickowor/zig-uuid-v4?ref=0.14.x#e2a03be5d15f3e5c124d95f5ee7b991f690f67ce",
+            .hash = "zig_uuidv4-0.0.1-YG9_GlcrAAA1OceulFwcJwbop5R7QIqAmLUqmJQHfxgV",
+        },
+        .gremlin = .{
+            .url = "git+https://github.com/octopus-foundation/gremlin.zig?ref=master#fccfe2659f24497199d86404e0ef7dbc79e033d2",
+            .hash = "gremlin-0.0.0-E2s91bN4DgDYbb4QNxl4ZT5nEEhNBkk5ngfVasDbsnNF",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "protos",
+        "LICENSE",
+        //"README.md",
+    },
+}
